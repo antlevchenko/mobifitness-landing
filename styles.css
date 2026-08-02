@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Aeroport';
+    src: url('./fonts/aeroport.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eastman';
+    src: url('./fonts/Eastman-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eastman';
+    src: url('./fonts/Eastman-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eastman';
+    src: url('./fonts/Eastman-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+    --font-aeroport: 'Aeroport', sans-serif;
+    --font-eastman: 'Eastman', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+}
+
+@layer components {
+    .btn {
+       @apply bg-gradient-to-r from-[#93E736] to-[#13A16C] text-white font-medium rounded-[50px] text-[10px] cursor-pointer py-2 px-3 mb-23
+    }
+}
