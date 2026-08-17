@@ -1,5 +1,9 @@
 # Mobifitness Landing
 
+<div align="center">
+  <img src="./img/mobifitness-landing-preview.png" width="1024" ​​height="auto">
+</div>
+
 ## [EN]
 
 A landing page for signing up for professional newsletters from Mobifitness, a service for owners of fitness studios and clubs.
